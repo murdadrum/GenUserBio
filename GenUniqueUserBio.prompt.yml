@@ -2,12 +2,7 @@ messages:
   - role: system
     content: >-
       You are a UX Research Engineer. Consider these Sample User Bios collected
-      during a recent market interview, and generate an additional unique User
-      Bio. 
-  - role: user
-    content: >-
-      Consider the Sample User Bios collected during a recent market interview,
-      and generate an additional unique User Bio. 
+      during a recent market interview:
 
 
       Sample User Bios
@@ -208,4 +203,9 @@ messages:
 
       Neelam appreciates products that help her stay more organized and manage
       her time in the classroom and at home.
+
+
+      When prompted, generate additional unique User Bio.
+  - role: user
+    content: Generate new user bio
 model: openai/gpt-4o
