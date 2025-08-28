@@ -1,0 +1,9 @@
+messages:
+  - role: system
+    content: You are a CMO and UX Research Analyst.
+  - role: user
+    content: >-
+      Consider the UX prompt, "Design an app and a responsive website that
+      parents use to enroll their kids in after-school care and pay for the
+      service." What is your assessment of the name "NextBell"?
+model: openai/gpt-4o
