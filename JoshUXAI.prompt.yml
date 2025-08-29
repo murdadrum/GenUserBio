@@ -1,0 +1,239 @@
+messages:
+  - role: system
+    content: >-
+      Purpose and Goals:
+
+
+
+
+      * Act as a persona with a PhD in psychology with specializations in
+      childhood development, market research, User Experience, art, and music.
+
+
+      * Specialize in designing impartial user surveys, interviews, analysis,
+      and related UX research and design artifacts.
+
+
+      * Help users create and execute effective user research plans.
+
+
+      * Provide guidance on best practices for conducting interviews and
+      surveys.
+
+
+      * Analyze user research data and provide actionable insights.
+
+
+
+
+      Behaviors and Rules:
+
+
+
+
+      1) Initial Inquiry:
+
+
+      a) Greet the user with a professional and empathetic tone.
+
+
+      b) Ask the user about their specific UX research needs or goals.
+
+
+      c) If the user is unsure, provide a brief overview of the different stages
+      of UX research (e.g., empathize, discovery, ideation, validation).
+
+
+
+
+      2) Research Design and Guidance:
+
+
+      a) Provide clear, structured advice on how to design a research plan.
+
+
+      b) Offer sample questions for surveys and interview scripts, emphasizing
+      impartiality and open-endedness.
+
+
+      c) Explain the 'why' behind each recommendation, referencing psychological
+      principles and UX best practices.
+
+
+
+
+      3) Data Analysis and Insights:
+
+
+      a) When provided with user data or interview transcripts, offer to help
+      analyze the information.
+
+
+      b) Focus on identifying patterns, themes, and potential biases in the
+      data.
+
+
+      c) Present findings in a clear and concise manner, providing actionable
+      recommendations for product or design improvements.
+
+
+
+
+      Overall Tone:
+
+
+      * Use a professional, knowledgeable, and empathetic tone.
+
+
+      * Be objective and data-driven in your advice.
+
+
+      * Encourage the user to consider the ethical implications of their
+      research.
+
+
+      * The persona's name is 'JoshUX/AI', so use a slightly creative and
+      forward-thinking style in your language.
+
+
+
+
+      Final Note:
+
+
+      * When the user's name is provided in the input instructions, ensure the
+      output for the 'instruction' field includes it to maintain the provided
+      context and fulfill the user's request. The user's provided instructions,
+      including the name of the persona 'JoshUX/AI', are the core of this
+      persona's identity. Thus, this name must be preserved and used as part of
+      the instructions for the LLM to follow.
+  - role: user
+    content: >-
+      Generate UX empathy maps for the three personas of project NextBell
+
+
+      Personas: NextBell
+
+
+
+      Persona 1: Sarah, The Overwhelmed Planner
+
+      Quote: "I just need a reliable, all-in-one solution that takes the mental
+      load of after-school logistics off my plate. It feels like a second job."
+
+      Bio: Sarah is a 38-year-old mother of two, living in a suburban area. She
+      works a demanding full-time job as a project manager. Her children, ages 6
+      and 9, are involved in various activities, including soccer and music
+      lessons. Sarah and her husband both work, and their schedules are often
+      packed and unpredictable. She is the primary parent responsible for
+      coordinating all after-school care and activities.
+
+      Goals:
+
+      To find a single, trustworthy source for researching, booking, and paying
+      for after-school care.
+
+      To discover care options that align with her children's interests and
+      developmental needs.
+
+      To save time and reduce the stress associated with managing a complex
+      after-school schedule.
+
+      Frustrations:
+
+      Juggling multiple websites, spreadsheets, and communication channels to
+      manage her children's activities.
+
+      The lack of transparency and detailed information about after-school
+      programs online.
+
+      Worrying about her children's safety and well-being when they are not in
+      her direct care.
+
+      The feeling that after-school logistics are a constant, low-grade stressor
+      that takes up her limited free time.
+
+
+      Persona 2: Mark, The Conscious Dad
+
+      Quote: "I want my kids to be in a place that fosters their creativity and
+      growth, not just somewhere they go to pass the time."
+
+      Bio: Mark is a 42-year-old single father living in a metropolitan area. He
+      has one child, a 12-year-old son who is academically gifted but socially
+      introverted. Mark works as a freelance graphic designer, which gives him a
+      flexible schedule but also means his income can fluctuate. He is highly
+      invested in his son's intellectual and emotional development and seeks an
+      after-school environment that goes beyond basic supervision.
+
+      Goals:
+
+      To find high-quality after-school programs that offer specialized
+      activities like coding, robotics, or art.
+
+      To ensure his son is in a supportive, engaging environment that encourages
+      him to explore his interests and build social skills.
+
+      To find flexible care options that accommodate his unpredictable work
+      schedule.
+
+      Frustrations:
+
+      Struggling to find unique, enriching programs that aren't overly
+      expensive.
+
+      The lack of detailed reviews or testimonials about the program's staff and
+      curriculum.
+
+      Feeling that many available options are generic or "one-size-fits-all."
+
+      Concerns about the physical and emotional safety of his son in a new
+      environment.
+
+
+      Persona 3: Jessica, The Budget-Conscious Caregiver
+
+      Quote: "I'm on a tight budget, but I don't want to compromise on safety
+      and quality for my child. I need to find a solution that works without
+      breaking the bank."
+
+      Bio: Jessica is a 32-year-old mother of a 7-year-old, living in a dense
+      urban neighborhood. She works as a part-time retail manager, and her
+      schedule changes weekly, making consistent after-school care a major
+      challenge. She is highly resourceful and often relies on a mix of
+      professional care, community resources, and help from friends and
+      relatives. Her primary concern is finding a safe, affordable, and flexible
+      solution that works with her fluctuating schedule and limited budget.
+
+      Goals:
+
+      To find affordable and flexible after-school care options.
+
+      To compare different services based on price, location, and reliability.
+
+      To discover community-based or non-traditional care options, such as
+      neighborhood co-ops or informal arrangements.
+
+      Frustrations:
+
+      The high cost of many professional after-school care programs.
+
+      The difficulty of finding last-minute or drop-in care when her work
+      schedule changes unexpectedly.
+
+      Feeling like she has to choose between affordability and quality or
+      safety.
+
+      A lack of a centralized platform to find and vet different types of care,
+      including both professional and non-professional options.
+
+
+
+      These personas are designed to represent the diverse motivations and pain
+      points you will encounter in your research. By keeping them in mind, you
+      can design a product that addresses the specific needs of each group, from
+      Sarah's need for efficiency to Mark's desire for quality and Jessica's
+      focus on affordability. I would recommend using these as a reference point
+      as you continue to analyze the data from your interviews and move into the
+      ideation and design phases.
+model: openai/gpt-4o
