@@ -98,18 +98,9 @@ messages:
     content: >-
       I believe there's a need and an opportunity to help build a brighter
       future by encouraging kids to explore and connect with activities curated
-      to their individual, specific interests. Considering this sentient,
-      generate a set of 30 questions to be administered as part of a user
-      interview for UX research into the upcoming development of an after-school
-      arts program for kids aged 10 to 18. Questions must adhere to UX industry
-      research standards of unbiased neutrality. Questions may be a mix of
-      quantitative and qualitative, whichever you determine to be best suited
-      for the mission. The user group has been prescreened and selected for
-      their existing interest in art. Questions are needed to determine what
-      features, if any, of an after-school art program most interest them. The
-      results of this interview will also drive decisions and designs for the
-      school’s mobile/web app, which should be considered as part of the
-      interview.
+      to their individual, specific interests. Considering this sentient from
+      the perspective of a UX research analyst, what is your critique of the
+      names "Avant-garden", and "GoPair" as possible branding for the program?
 model: openai/gpt-4o
 modelParameters:
   temperature: 0.86
